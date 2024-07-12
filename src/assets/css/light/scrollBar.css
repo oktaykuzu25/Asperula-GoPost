@@ -1,0 +1,29 @@
+::-webkit-scrollbar {
+    width: 4px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    cursor: pointer;
+    background: #fa5832;
+}
+
+::selection {
+    background-color: #fa5832;
+    color: #fff;
+}
+
+-webkit-::selection {
+    background-color: #fa5832;
+    color: #fff;
+}
+
+::-moz-selection {
+    background-color: #fa5832;
+    color: #ffffff;
+}
+
+::selection {
+    background-color: #fa5832;
+    color: #ffffff;
+}
